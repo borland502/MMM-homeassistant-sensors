@@ -35,7 +35,7 @@ Module.register("MMM-homeassistant-sensors", {
 	},
 	getDom: function () {
 		var wrapper = document.createElement("ticker");
-		wrapper.className = 'dimmed small';
+		wrapper.className = 'small';
 		var data = this.result;
 		var statElement = document.createElement("header");
 		var title = this.config.title;
